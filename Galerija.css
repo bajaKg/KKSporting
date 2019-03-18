@@ -1,0 +1,63 @@
+/* 
+    Document   : Galerija
+    Created on : Jul 16, 2014, 2:40:13 PM
+    Author     : Bajic
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.mainGalery{
+    position: absolute;
+    left: 50px;
+    height: 800px;
+    width: 900px;;            
+}
+
+.bigGalery, .bigGalery img{
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    height: 300px;
+    width: 500px;    
+    background-color: black;
+    z-index: 20;
+}
+.bigGalery img{
+    margin-top: 0;
+    border: 1px solid white;
+}
+
+.littleGalery{
+    position: relative;
+    right: -30px;
+    margin: auto;
+    margin-top: 50px;
+    height: 400px;
+    width: 95%;
+    /*overflow: hidden;*/
+}
+
+.littleGalery img{
+    position: relative;
+    width: 125px;
+    height: 100px;
+    margin: 10px;
+    /*float: right;*/
+    border: 1px solid white;
+    opacity: 0.7;
+}
+
+.littleGalery img:hover{
+    border: 1px solid black;
+    opacity: 1;
+}
+
+.velikaSlikaGalery{
+    position: fixed;
+    display: none;
+    border: 1px solid blue;
+    height: 600px;
+    width: 1000px;
+    top: 10%;
+    left: 6%;
+}

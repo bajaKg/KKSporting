@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+    <album>
+        <title>Tara 2014</title>
+        <date>1.8.2014.</date>
+        <decription>Pripreme na planini Tari u periodu od 1. od 10. avgusta 2014
+            godine. Mladja grupa sa trenerima Vladimirom Kocovicem i Vukom Obradovicem.            
+        </decription>
+        <pictures>
+            <pic>
+                <title></title>
+                <date></date>
+                <description></description>
+                <source>slike/Galerija/slika1.jpg</source>
+            </pic>
+            <pic>
+                <title></title>
+                <date></date>
+                <description></description>
+                <source></source>
+            </pic>
+        </pictures>
+    </album>
+    <album>
+        <title></title>
+        <date></date>
+        <decription>Kotor 2014.</decription>
+        <pictures>
+            <pic>
+                <title></title>
+                <date></date>
+                <description></description>
+                <source></source>
+            </pic>
+            <pic>
+                <title></title>
+                <date></date>
+                <description></description>
+                <source></source>
+            </pic>
+        </pictures>
+    </album>
+</root>

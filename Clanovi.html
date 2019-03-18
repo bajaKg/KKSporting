@@ -1,0 +1,85 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="KKSporting.css" type="text/css" rel="stylesheet"/>
+        <link rel="shortcut icon" href="slike/pesnica.png">
+        <script src="jquery-1.9.1.min.js"></script>
+        <script src="KKSporting.js"></script>
+    </head>
+    <body onload="popuniClanove();">            
+        <div class=""></div>
+        <a href="https://www.facebook.com/bajic.kg" target="_blank"><div class="facebook">facebook</div></a>
+        <div class="main">
+            <div class="header">
+                <input id="search" type="search" placeholder="Потражи"/> 
+                <div class="meni" id="klub">
+                    <ul class="top">
+                        <li><a href="pocetna.html">Почетна</a></li>
+                        <li>
+                            <a href="Klub.html">Клуб</a>
+                            <ul class="sub" id="submenu">                                    
+                                    <li><a href="">Историја</a></li> 
+                                    <li><a href="">Тренери</a></li>
+                                    <li><a href="Clanovi.html">Чланови</a></li> 
+                                    <li><a href="">Сала за тренинге</a></li> 
+                            </ul>
+                        </li>
+                        <li>
+                             <a href="Karate/Karate.html">Карате</a>
+                             <ul class="sub" id="submenu">
+                                    <li><a href="#">Историја</a></li> 
+                                    <li><a href="#">Шотокан</a></li>
+                                    <li><a href="#">Фунакоши</a></li> 
+                                    <li><a href="#">Федерације</a></li>
+                                    <li>
+                                        <a href="#">
+                                            HACHI-O-KAI
+                                            <img style="height:20px;width:20px;" src="slike/skalogo.gif">
+                                        </a>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li><a href="">Галерија</a></li>
+                        <li><a href="">Новости</a></li>
+                        <li><a id="zadnji" href="">Контакт</a></li>
+                    </ul>   
+                    
+                </div>                                                
+            </div>
+            <div class="pozadinaSadrzaja"></div>
+            <div class="sadrzaj">
+                <div class="left">
+                    <h2>Потражи члана</h2>
+                    <p>Напомена: име и презиме уносити латиницом. </p>
+                    <table>
+                        <tr>
+                            <td>Година уписа: <input type="text" id="godinaUps" onkeyup=""></td>
+                            <td>Име: <input type="text" id="ime" onkeyup=""> </td>
+                            <td>Презиме: <input type="text" id="prezime" onkeyup=""></td>                            
+                        </tr>                        
+                    </table>
+                    <div id="slikaxml"></div>
+                    <button style="position:absolute;left:700px;top:105px;" type="button" onclick="osvezi()">Потражи</button>
+                    <div id="ispis">
+                        
+                    </div>
+                </div>
+                <div style="position:absolute;top:700px;">
+                    Stefan Markovic 2003<br>
+                    Jovana Jevremovic 2010 <br>
+                    Kristina Petrovic 2006 <br>
+                </div>
+                
+            </div>
+            <div class="footer">
+                &copy; <a href="https://www.facebook.com/bajic.kg" target="_blank">Милош Бајић</a> 2014 | ККСпортинг Крагујевац 
+            </div>
+        </div>
+    </body>
+</html>

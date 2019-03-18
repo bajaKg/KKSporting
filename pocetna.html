@@ -1,0 +1,92 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>КК Спортинг Крагујевац</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">        
+        <link href="KKSporting.css" type="text/css" rel="stylesheet"/>
+        <link rel="shortcut icon" href="slike/pesnica.png">
+        <script src="jquery-1.9.1.min.js"></script>
+        <script src="KKSporting.js"></script>
+        <!--<script src="sliderman.1.3.8.js"></script>-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="jquery.bxslider.min.js"></script>
+        <link href="jquery.bxslider.css" rel="stylesheet" />
+        <script src="Stranice.js"></script>
+        <div class="topBack"></div>
+    </head>
+    <body onload=" loadGalery()">            
+        <div class=""></div>
+        <a href="https://www.facebook.com/bajic.kg" target="_blank"><div class="facebook">facebook</div></a>
+        <a href="https://www.youtube.com/watch?v=VlYZGNV7ELw" target="_blank"><div class="youtube">YouTube</div></a>
+        <div class="main">
+            <div class="header">
+                <input id="search" type="search" placeholder="Потражи"/> 
+                <div class="meni" id="pocetna">
+                    
+                    <ul class="top">
+                        <li><a href="#" onclick="loadHome()">Почетна</a></li>
+                        <li>
+                            <a href="Klub.html">Клуб</a>
+                            <ul class="sub" id="submenu">                                    
+                                    <li><a href="">Историја</a></li>                                     
+                                    <li><a href="Clanovi.html">Чланови</a></li> 
+                                    <li><a href="">Сала за тренинге</a></li> 
+                            </ul>
+                        </li>
+                        <li>
+                             <a href="Karate/Karate.html">Карате</a>
+                             <ul class="sub" id="submenu">
+                                    <li><a href="#">Историја</a></li> 
+                                    <li><a href="#">Шотокан</a></li>
+                                    <li><a href="#">Фунакоши</a></li> 
+                                    <li><a href="#">Федерације</a></li>
+                                    <li>
+                                        <a href="#">
+                                            HACHI-O-KAI
+                                            <img style="height:20px;width:20px;" src="slike/skalogo.gif">
+                                        </a>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li><a onclick="loadGalery();" style="cursor: pointer">Галерија</a></li>
+                        <li><a href="">Новости</a></li>
+                        <li><a id="zadnji" href="">Контакт</a></li>
+                        <li><a href="">Тренери</a></li>
+                        
+                    </ul>   
+                    
+                </div>                                                
+            </div>            
+            <div class="pozadinaSadrzaja">
+                 
+            </div>
+            <div class="sadrzaj" >
+			<marquee style="Color: orangered; font-size: 25px;"> I am moving || KKSporting </marquee>
+                <div onload="menjajSlike()" class="slider">
+                    <div class="okvir"> 
+                        <a href="Klub.html"><img id="slika" src="slike/slider0.jpg"/></a>                   
+                    </div>
+                    <form  action="">
+                        <input type="radio" id="0" name="y" onclick="postaviSliku(this)">
+                        <input type="radio" id="1" name="y" onclick="postaviSliku(this)"  >
+                        <input type="radio" id="2" name="y" onclick="postaviSliku(this)" >
+                        <input type="radio" id="3" name="y" onclick="postaviSliku(this)" >
+                    </form>
+                    <div class="strelica" id="leva" onclick="promeniSliku('levo')">   
+                        <!--<img  src="slike/img_trans.gif">-->
+                    </div>
+                    <div class="strelica" id="desna" onclick="promeniSliku('desno')">                        
+                        <!--<img id="desna" src="slike/img_trans.gif">-->
+                    </div>                    
+                </div>                
+            </div>
+            <div class="footer">
+                &copy; <a href="https://www.facebook.com/bajic.kg" target="_blank">Милош Бајић</a> 2014 | ККСпортинг Крагујевац 
+            </div>
+        </div>
+    </body>
+</html>

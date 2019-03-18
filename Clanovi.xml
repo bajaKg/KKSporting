@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+    <clan>
+        <ime>Stefan</ime>
+        <prezime>Markovic</prezime>
+        <godinaRodjenja>5-6-1983</godinaRodjenja>    
+        <godinaUpisa>2003</godinaUpisa>
+        <pojas>crni</pojas>
+        <brClanskeKnjizice>6</brClanskeKnjizice>
+        <slika>Stefan</slika>
+    </clan>
+    <clan>
+        <ime>Milos</ime>
+        <prezime>Bajic</prezime>
+        <godinaRodjenja>7-21-1992</godinaRodjenja>    
+        <godinaUpisa>2003</godinaUpisa>
+        <pojas>crni</pojas>
+        <brClanskeKnjizice>53</brClanskeKnjizice>
+        <slika>Milos</slika>
+    </clan>
+    <clan>
+        <ime>Jovana</ime>
+        <prezime>Jevremovic</prezime>
+        <godinaRodjenja>7-8-1998</godinaRodjenja>    
+        <godinaUpisa>2010</godinaUpisa>
+        <pojas>braon</pojas>
+        <brClanskeKnjizice>9</brClanskeKnjizice>
+        <slika>Jovana</slika>
+    </clan>
+    <clan>
+        <ime>Kristina</ime>
+        <prezime>Petrovic</prezime>
+        <godinaRodjenja>8-3-2000</godinaRodjenja>    
+        <godinaUpisa>2006</godinaUpisa>
+        <pojas>zeleni</pojas>
+        <brClanskeKnjizice>10</brClanskeKnjizice>
+        <slika>Kristina</slika>
+    </clan>
+    <clan>
+        <ime>Vuk</ime>
+        <prezime>Stefanovic</prezime>
+        <godinaRodjenja>1-3-1990</godinaRodjenja>    
+        <godinaUpisa>2004</godinaUpisa>
+        <pojas>oranz</pojas>
+        <brClanskeKnjizice>2</brClanskeKnjizice>
+        <slika>Vuk</slika>
+    </clan>
+</root>
